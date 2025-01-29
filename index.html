@@ -9,8 +9,8 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="/resources/reset.css" />
+    <link rel="stylesheet" href="/resources/index.css" />
     <script src="/resources/script.js" defer></script>
     <title>Portfolio</title>
   </head>
@@ -19,10 +19,12 @@
 
         <nav>
           <h2>My Portfolio</h2>
-          <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-         
+            <ul class="navigation-items">
+              <li class="navigation-item"><a href="#about-me">About</a></li>
+              <li class="navigation-item"><a href="#projects">Projects</a></li>
+              <li class="navigation-item"><a href="#skills">Skills</a></li>
+              <li class="navigation-item"><a href='/contact'>Contact</a></li>
+            </ul>
         </nav>
  
         <main>
@@ -36,7 +38,7 @@
                
                 <p>
                   Fun fact! It has been
-                  <span id="time-container">0</span> seconds since this website was made!
+                  <span id="time-container">0</span> seconds since this website was created!
                 </p>
               </div>
              
